@@ -24,7 +24,10 @@ while True:
             print("Here are all the possibilities")
             print(lookup[0] + " : ")
             print(dictionary.missing_letter_word(lookup[0]))
-    elif choice == "t" or "tangle":
+    elif choice == "t" or choice == "tangle":
         initial = input("Initial word : \n").replace(" ", "")
         final = input("Final word : \n").replace(" ", "")
         dictionary.tangle(initial, final)
+
+
+
